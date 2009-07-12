@@ -2,51 +2,31 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLConnection;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+import org.json.simple.JSONArray;
+import org.json.simple.JSONValue;
 
 public class Vidi {
 
-	private String username;
-	private String password;
+	public static final String PRIVATE = "private";
+	public static final String PUBLIC = "public";
 	private String address;
 	private String apikey;
-	private ArrayList<Room> rooms;
 
-	public Vidi(String password, String username, String address) {
+	public Vidi(String address) {
 
-		this.password = password;
-		this.username = username;
-		this.address = address;	
+		this.address = address;
 
-		/*try{
-			URL url = new URL(address + "?action=login&username=" + this.username + "&password=" + this.password);
-			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-			String encoding = new sun.misc.BASE64Encoder().encode("username  password".getBytes());
-			conn.setRequestProperty ("Authorization", "Basic " + encoding);
-			conn.setRequestMethod("GET");
-
-			conn.connect();
-			InputStream in = conn.getInputStream();
-			BufferedReader reader = new BufferedReader(new InputStreamReader(in));
-			this.apitoken = reader.readLine();
-
-			conn.disconnect();
-
-		}catch(IOException ex)
-		{
-			ex.printStackTrace();
-			System.out.println("made it here");
-		} */
-
-		this.apikey = "a1d386c64bceaf644a8e7093d523eafb4aaa3923"; // loginden gelicek
-		this.rooms = new ArrayList<Room>();
+		this.apikey = "a1d386c64bceaf644a8e7093d523eafb4aaa3923"; 
 	}
 
 	public String getApikey() {
@@ -56,73 +36,51 @@ public class Vidi {
 
 	public ArrayList<Room> get_rooms() {
 
-		return this.rooms;
+		Map<String, String> parameters = new HashMap<String, String>();
+		String url = address + "/rooms";
+		parameters.put("apikey", apikey);
+		String response = request(url, "GET", parameters);
+
+		String roomIds[] = response.split(" ");
+
+		ArrayList<Room> rooms = new ArrayList<Room>();
+
+		for(int i = 0; i < roomIds.length; i++) {
+
+			rooms.add(new Room(this, roomIds[i]));
+		}
+
+		return rooms;
 	}
 
 	public Room get_room(String roomid) {
 
-		for(int i = 0; i < rooms.size(); i++) {
-
-			if(rooms.get(i).getId().equals(roomid))
-				return rooms.get(i);
-		}
-
-		return null;
+		return new Room(this, roomid);
 	}
 
 	public Room create_room() {
 
-		/*String roomId = "";
-
-		try{
-			URL url = new URL(address + "?action=createRoom&apikey=" + this.apikey);
-			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-			String encoding = new sun.misc.BASE64Encoder().encode("username  password".getBytes());
-			conn.setRequestProperty ("Authorization", "Basic " + encoding);
-			conn.setRequestMethod("GET");
-
-			conn.connect();
-			InputStream in = conn.getInputStream();
-			BufferedReader reader = new BufferedReader(new InputStreamReader(in));
-			roomId = reader.readLine();
-
-			conn.disconnect();
-
-		}catch(IOException ex)
-		{
-			ex.printStackTrace();
-			System.out.println("made it here");
-		}
-
-		return new Room(this, roomId); */
-		
 		Map<String, String> parameters = new HashMap<String, String>();
-		String url = address + "?action=createRoom";
+		String url = address + "/rooms/create";
 		parameters.put("apikey", apikey);
-		String id = request(url, "GET", parameters);
-		
-		return new Room(this, id);
+		String roomId = request(url, "POST", parameters);
 
+		return new Room(this, roomId);
 	}
 
-	public String get_desktop(String desktopid) {
+	public Desktop get_desktop(String desktopid) {
 
-		return null;
-
+		return new Desktop(this, desktopid);
 	}
 
 	public void close() {
 
-	}
+		Map<String, String> parameters = new HashMap<String, String>();
+		String url = this.address + "/session/destroy";
+		parameters.put("apikey", this.apikey);
+		String response = request(url, "DELETE", parameters);
 
-	public String _getattr_(String name) {
-
-		return null;
-	}
-
-	public String _repr_() {
-
-		return null;
+		System.out.println("vidi close response: " + response);
 	}
 
 	public String getAddress() {
@@ -133,76 +91,158 @@ public class Vidi {
 		this.address = address;
 	}
 
-	public String request(String requestUrl, String method, Map<String, String> parameters) { 
+	public String request(String requestUrl, String method,
+			Map<String, String> parameters) {
 
-		String id = "";
-		String dataStr = "";
+		String json = "";
+		String data = "";
 		Iterator<String> iterator = parameters.keySet().iterator();
-		String temp;
+		String next;
 
+		if (method.equals("GET") || method.equals("DELETE")) {
 
-		if(method.equals("GET")) {
+			try {
 
-			try{
+				next = iterator.next();
+				data = next + "=" + parameters.get(next);
 
-				while(iterator.hasNext())
-				{
-					temp = iterator.next();
-					dataStr = dataStr + "&" + temp + "=" + parameters.get(temp);
+				while (iterator.hasNext()) {
+					next = iterator.next();
+					data += "&" + next + "=" + parameters.get(next);
 				}
-				
-				URL url = new URL(requestUrl + dataStr);
-				HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-				String encoding = URLEncoder.encode(dataStr, "UTF-8");
-				conn.setRequestProperty ("Authorization", "Basic " + encoding);
+
+				URL url = new URL(requestUrl + "?" + data);
+				HttpURLConnection conn = (HttpURLConnection) url
+				.openConnection();
+				String encoding = URLEncoder.encode(data, "UTF-8");
+				conn.setRequestProperty("Authorization", "Basic " + encoding);
 				conn.setRequestMethod(method);
 
 				conn.connect();
 				InputStream in = conn.getInputStream();
-				BufferedReader reader = new BufferedReader(new InputStreamReader(in));
-				id = reader.readLine();
+				BufferedReader reader = new BufferedReader(
+						new InputStreamReader(in));
+				json = reader.readLine();
 
 				conn.disconnect();
 
-			}catch(IOException ex)
-			{
+			} catch (IOException ex) {
 				ex.printStackTrace();
 				System.out.println("made it here");
 			}
-		}
-		else if(method.equals("POST")) {
-		
-			try{
+		} else if (method.equals("POST")) {
 
-				while(iterator.hasNext())
-				{
-					temp = iterator.next();
-					dataStr = dataStr + "&" + temp + "=" + parameters.get(temp);
+			try {
+
+				next = iterator.next();
+				data = URLEncoder.encode(next, "UTF-8") + "="
+				+ URLEncoder.encode(parameters.get(next), "UTF-8");
+
+				while (iterator.hasNext()) {
+					next = iterator.next();
+					data += "&" + URLEncoder.encode(next, "UTF-8") + "="
+					+ URLEncoder.encode(parameters.get(next), "UTF-8");
 				}
-				
+
+				// Send data
 				URL url = new URL(requestUrl);
-				HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-				String encoding = URLEncoder.encode(dataStr, "UTF-8");
-				conn.setRequestProperty ("Authorization", "Basic " + encoding);
-				conn.setRequestMethod(method);
+				URLConnection conn = url.openConnection();
+				conn.setDoOutput(true);
+				OutputStreamWriter wr = new OutputStreamWriter(conn
+						.getOutputStream());
+				wr.write(data);
+				wr.flush();
 
-				conn.connect();
-				InputStream in = conn.getInputStream();
-				BufferedReader reader = new BufferedReader(new InputStreamReader(in));
-				id = reader.readLine();
+				// Get the response
+				BufferedReader rd = new BufferedReader(new InputStreamReader(
+						conn.getInputStream()));
 
-				conn.disconnect();
+				json = rd.readLine();
 
-			}catch(IOException ex)
-			{
+				wr.close();
+				rd.close();
+
+			} catch (IOException ex) {
 				ex.printStackTrace();
 				System.out.println("made it here");
 			}
 		}
-		else if(method.equals("DELETE")) {
-			
+
+		Object obj=JSONValue.parse(json);
+		JSONArray array=(JSONArray)obj;
+
+		String response = array.get(0).toString();
+
+		for(int i = 1; i < array.size(); i++)
+		{
+			response += " " + array.get(i).toString(); 
 		}
 
-		return id;
+		return response;
+	}
+
+	// TODO make access parameter optional
+	public String _getProperty(String where, String id, String key, String access) {
+
+		Map<String, String> parameters = new HashMap<String, String>();
+		String url = address + "/properties/get";
+		parameters.put("apikey", this.apikey);
+		parameters.put("where", where);
+		parameters.put("id", id);
+		parameters.put("key", key);
+		parameters.put("?access", access);
+		String value = request(url, "GET", parameters);
+
+		return value;
+	}
+
+	public void _setProperty(String where, String id, String key, String value, String access) {
+
+		Map<String, String> parameters = new HashMap<String, String>();
+		String url = address + "/properties/set";
+		parameters.put("apikey", this.apikey);
+		parameters.put("where", where);
+		parameters.put("id", id);
+		parameters.put("key", key);
+		parameters.put("value", value);
+		parameters.put("?access", access);
+		String response = request(url, "POST", parameters);
+
+		System.out.println(response);
+	}
+	
+	public ArrayList<String> _listProperties(String where, String id, String access) {
+
+		Map<String, String> parameters = new HashMap<String, String>();
+		String url = address + "/properties";
+		parameters.put("apikey", this.apikey);
+		parameters.put("where", where);
+		parameters.put("id", id);
+		parameters.put("?access", access);
+		String response = request(url, "GET", parameters);
+
+		String keys[] = response.split(" "); 
+		ArrayList<String> properties = new ArrayList<String>();
+		
+		for(int i = 0; i < keys.length; i++) {
+			properties.add(keys[i]);
+		}
+		
+		return properties;
+	}
+
+	public String getProperty(String key, String access) {
+
+		return _getProperty("apikey", this.apikey, key, access);
+	}
+
+	public void setProperty(String key, String value, String access) {
+
+		_setProperty("apikey", this.apikey, key, value, access);
+	}
+	
+	public ArrayList<String> listProperties(String access) {
+		
+		return _listProperties("apikey", this.apikey, access);
 	}
 }

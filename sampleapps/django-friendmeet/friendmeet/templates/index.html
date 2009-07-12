@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>Friendmeet - sample vidi application</title>
+</head>
+<body>
+<h1>Welcome to Friendmeet!</h1>
+
+<h2>Create a new room</h2>
+<form action="/create_room/" method="get">
+	<input type="submit" name="submit" value="Create room!" />
+</form>
+
+<h2>Join a room</h2>
+<p>If you know the room id enter below:</p>
+<form action="/join_room/" method="post">
+	<input type="text" name="roomid" />
+	<input type="submit" name="submit" value="Join room!" />
+</form>
+</body>
+</html>

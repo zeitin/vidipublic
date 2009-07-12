@@ -1,21 +1,16 @@
 import httplib, urllib
 import simplejson as json
 
-#TODO: get these settings from somewhere else
-REST_HOST = 'localhost:5080'
+REST_HOST = 'prod.vidi.zeitin.com'
 REST_URL = '/vidi/rest/'
 
 class Vidi(object):
-    def __init__(self, username, password, postback_url=''):
-        self.apitoken = request('session/create', 'POST', {
-            'username': username,
-            'password': password,
-        })
-        self.id = self.apitoken
+    def __init__(self, apikey):
+        self.id = self.apikey
 
     def get_rooms(self):
         roomids = request('rooms', 'GET', {
-            'apitoken': self.apitoken,
+            'apikey': self.apikey,
         })
         return [Room(self, roomid) for roomid in roomids]
 
@@ -24,7 +19,7 @@ class Vidi(object):
 
     def create_room(self):
         roomid = request('rooms/create', 'POST', {
-            'apitoken': self.apitoken,
+            'apikey': self.apikey,
         })
         return Room(self, roomid)
 
@@ -33,7 +28,7 @@ class Vidi(object):
 
     def close(self):
         request('session/destroy', 'DELETE', {
-            'apitoken': self.apitoken,
+            'apikey': self.apikey,
         })
 
     # GET style rest api
@@ -43,7 +38,7 @@ class Vidi(object):
         return wrapper
 
     def __repr__(self):
-        return '<Vidi Session Object (apitoken: %s)>' % self.apitoken
+        return '<Vidi Session Object (apikey: %s)>' % self.apikey
 
 class Room(object):
     def __init__(self, vidi, roomid):
@@ -53,7 +48,7 @@ class Room(object):
 
     def get_clients(self):
         clientids = request('clients', 'GET', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'roomid': self.roomid,
         })
         return [Client(self.vidi, self, clientid) for clientid in clientids]
@@ -63,7 +58,7 @@ class Room(object):
 
     def get_bindings(self):
         bindingids = request('bindings', 'GET', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'roomid': self.roomid,
         })
         return [Binding(self.vidi, self, None, None, bindingid) for bindingid in bindingids]
@@ -73,14 +68,14 @@ class Room(object):
 
     def create_client(self):
         clientid = request('clients/create', 'POST', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'roomid': self.roomid,
         })
         return Client(self.vidi, self, clientid)
 
     def create_binding(self, input, output):
         bindingid = request('bindings/create', 'POST', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'inputid': input.inputid,
             'outputid': output.outputid,
         })
@@ -88,14 +83,14 @@ class Room(object):
 
     def send_message(self, message):
         request('rooms/send_message', 'POST', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'roomid': self.roomid,
             'message': message,
         })
 
     def close(self):
         request('rooms/destroy', 'DELETE', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'roomid': self.roomid,
         })
 
@@ -111,7 +106,7 @@ class Client(object):
 
     def get_inputs(self):
         inputids = request('inputs', 'GET', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'clientid': self.clientid,
         })
         return [Input(self.vidi, self.room, self, inputid) for inputid in inputids]
@@ -121,7 +116,7 @@ class Client(object):
 
     def get_outputs(self):
         outputids = request('outputs', 'GET', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'clientid': self.clientid,
         })
         return [Output(self.vidi, self.room, self, outputid) for outputid in outputids]
@@ -131,28 +126,28 @@ class Client(object):
 
     def create_input(self):
         inputid = request('inputs/create', 'POST', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'clientid': self.clientid,
         })
         return Input(self.vidi, self.room, self, inputid)
 
     def create_output(self):
         outputid = request('outputs/create', 'POST', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'clientid': self.clientid,
         })
         return Output(self.vidi, self.room, self, outputid)
 
     def send_message(self, message):
         request('clients/send_message', 'POST', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'clientid': self.clientid,
             'message': message,
         })
 
     def close(self):
         request('clients/destroy', 'DELETE', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'clientid': self.clientid,
         })
 
@@ -169,14 +164,14 @@ class Input(object):
 
     def play_video(self, videofile):
         request('inputs/play_video', 'PUT', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'inputid': self.inputid,
             'videofile': videofile,
         })
 
     def close(self):
         request('inputs/destroy', 'DELETE', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'inputid': self.inputid,
         })
 
@@ -193,7 +188,7 @@ class Output(object):
 
     def close(self):
         request('outputs/destroy', 'DELETE', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'outputid': self.outputid,
         })
 
@@ -221,13 +216,13 @@ class Binding(object):
 
     def close(self):
         request('bindings/destroy', 'DELETE', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'bindingid': self.bindingid,
         })
 
     def _populate_io(self):
         io = request('bindings/io', 'GET', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'bindingid': self.bindingid,
         })
         self.input = Input(self.vidi, self.room, None, io[0])
@@ -244,14 +239,14 @@ class Desktop(object):
 
     def notify(self, message):
         request('desktop/notify', 'POST', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'desktopid': self.desktopid,
             'message': message,
         })
 
     def ring(self, message='1'):
         request('desktop/ring', 'POST', {
-            'apitoken': self.vidi.apitoken,
+            'apikey': self.vidi.apikey,
             'desktopid': self.desktopid,
             'message': message,
         })
@@ -278,5 +273,11 @@ def request(url, method, parameters):
         print url + ": " + str(data)
         return data
     else:
-        print 'VIDI SERVER ERROR: %s' + response.read()
+        VidiError(response.read())
+
+class VidiError(Exception):
+    def __init__(self, value):
+        self.value = value
+    def __str__(self):
+        return repr(self.value)
 
