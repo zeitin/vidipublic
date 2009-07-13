@@ -1,12 +1,14 @@
 import httplib, urllib
 import simplejson as json
+import random
 
 REST_HOST = 'prod.vidi.zeitin.com'
 REST_URL = '/vidi/rest/'
 
 class Vidi(object):
     def __init__(self, apikey):
-        self.id = self.apikey
+        self.apikey = apikey
+        self.id = apikey
 
     def get_rooms(self):
         roomids = request('rooms', 'GET', {
@@ -20,7 +22,7 @@ class Vidi(object):
     def create_room(self):
         roomid = request('rooms/create', 'POST', {
             'apikey': self.apikey,
-        })
+        })[0]
         return Room(self, roomid)
 
     def get_desktop(self, desktopid):
@@ -30,6 +32,67 @@ class Vidi(object):
         request('session/destroy', 'DELETE', {
             'apikey': self.apikey,
         })
+
+    def get_init_js(self, room, client, callback=False, debug=False):
+        if isinstance(client, Client) == False:
+            raise VidiError('Wrong Client object')
+        if isinstance(room, Room) == False:
+            raise VidiError('Wrong Room object')
+
+        params = {
+            'clientid': client.id,
+            'roomid': room.id,
+            'debug': debug,
+        }
+
+        if callback:
+            params.update({'callback': callback})
+
+        return """
+<script type="text/javascript" src="%(vidi_js)s"></script>
+<script type="text/javascript">
+vidi.initialize(%(params)s);
+</script>
+        """ % {
+            'vidi_js': 'http://' + REST_HOST + '/vidi/static/vidi.js',
+            'params': json.dumps(params),
+        }
+
+    def create_screen(self, **kwargs):
+        #TODO: validate params
+        divid = 'vidi_screen_' + str(random.randint(1, 10000))
+        self.oo = kwargs
+        if self.oo.has_key('input'):
+            if isinstance(self.oo['input'], Input) == False:
+                raise VidiError('Wrong Input object')
+            self.oo['inputid'] = self.oo['input'].id
+            del self.oo['input']
+        if self.oo.has_key('output'):
+            if isinstance(self.oo['output'], Output) == False:
+                raise VidiError('Wrong Output object')
+            self.oo['outputid'] = self.oo['output'].id
+            del self.oo['output']
+        if self.oo.has_key('divid'):
+            html = """
+<script type="text/javascript">
+vidi.createScreen(%(params)s);
+</script>
+            """ % {
+                'params': json.dumps(self.oo),
+            }
+        else:
+            self.oo['divid'] = divid
+            html = """
+<div id="%(divid)s"></div>
+<script type="text/javascript">
+    vidi.createScreen(%(params)s);
+</script>
+            """ % {
+                'params': json.dumps(self.oo),
+                'divid': divid,
+            }
+        self.__dict__.update(self.oo)
+        return html
 
     # GET style rest api
     def __getattr__(self, name):
@@ -70,15 +133,15 @@ class Room(object):
         clientid = request('clients/create', 'POST', {
             'apikey': self.vidi.apikey,
             'roomid': self.roomid,
-        })
+        })[0]
         return Client(self.vidi, self, clientid)
 
-    def create_binding(self, input, output):
+    def bind(self, input, output):
         bindingid = request('bindings/create', 'POST', {
             'apikey': self.vidi.apikey,
             'inputid': input.inputid,
             'outputid': output.outputid,
-        })
+        })[0]
         return Binding(self.vidi, self, input, output, bindingid)
 
     def send_message(self, message):
@@ -128,14 +191,14 @@ class Client(object):
         inputid = request('inputs/create', 'POST', {
             'apikey': self.vidi.apikey,
             'clientid': self.clientid,
-        })
+        })[0]
         return Input(self.vidi, self.room, self, inputid)
 
     def create_output(self):
         outputid = request('outputs/create', 'POST', {
             'apikey': self.vidi.apikey,
             'clientid': self.clientid,
-        })
+        })[0]
         return Output(self.vidi, self.room, self, outputid)
 
     def send_message(self, message):
@@ -254,6 +317,7 @@ class Desktop(object):
     def __repr__(self):
         return '<Vidi Desktop Object (desktopid: %s)>' % self.desktopid
 
+
 def request(url, method, parameters):
     params = urllib.urlencode(parameters)
     conn = httplib.HTTPConnection(REST_HOST)
@@ -268,12 +332,10 @@ def request(url, method, parameters):
     response = conn.getresponse()
     if response.status == 200:
         data = json.loads(response.read())
-        if len(data) == 1: data = data[0]
         conn.close()
-        print url + ": " + str(data)
         return data
     else:
-        VidiError(response.read())
+        raise VidiError(response.read())
 
 class VidiError(Exception):
     def __init__(self, value):

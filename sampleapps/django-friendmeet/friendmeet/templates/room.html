@@ -1,12 +1,13 @@
-{% load vidi %}
 <html>
 <head>
 	<title>Friendmeet - sample vidi application</title>
+    {{ vidi_init_js }}
 </head>
 <body>
 <h1>Room id: {{roomid}}</h1>
 
-{% vidi %}
+<div id="localecho" style="width:320px;">{{ vidi_screen_localecho }}</div>
+<div id="remote" style="width:320px;">{{ vidi_screen_remote }}</div>
 
 </body>
 </html>
