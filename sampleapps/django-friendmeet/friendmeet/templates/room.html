@@ -2,12 +2,31 @@
 <head>
 	<title>Friendmeet - sample vidi application</title>
     {{ vidi_init_js }}
+    <style>
+        #vidi_screen_localecho {
+            float: left;
+            width: 320px;
+            border: 2px solid #000;
+            margin: 10px;
+        }
+        #vidi_screen_remote {
+            float: left;
+            width: 320px;
+            border: 2px solid #000;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
-<h1>Room id: {{roomid}}</h1>
+<h1>Friendmeet</h1>
+<h2>Room id: {{roomid}}</h2>
+<p>
+    Send this url to a friend to meet:
+    <a href="/join_room/?roomid={{roomid}}">http://example.com/join_room/?roomid={{roomid}}</a>
+</p>
 
-<div id="localecho" style="width:320px;">{{ vidi_screen_localecho }}</div>
-<div id="remote" style="width:320px;">{{ vidi_screen_remote }}</div>
+<div id="vidi_screen_localecho">{{ vidi_screen_localecho }}</div>
+<div id="vidi_screen_remote">{{ vidi_screen_remote }}</div>
 
 </body>
 </html>

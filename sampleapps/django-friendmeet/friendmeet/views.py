@@ -1,24 +1,34 @@
 from django.conf import settings
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
-from vidi.vidi import Vidi
 from django.utils.safestring import mark_safe
 
+from vidi import Vidi
+
+# create a vidi session
 vidi = Vidi(settings.VIDI_APIKEY)
 
 def index(request):
     return render_to_response('index.html')
 
 def create_room(request):
+    # create the room
     room = vidi.create_room()
+
+    # create a client and io
     client = room.create_client()
     input = client.create_input()
     output = client.create_output()
 
+    # get vidi initialize javascript code
     vidi_init_js = vidi.get_init_js(room, client)
+
+    # get localecho screen html/javascript code
     vidi_screen_localecho = vidi.create_screen(
         localecho=True,
     )
+
+    # get remote screen html/javascript code
     vidi_screen_remote = vidi.create_screen(
         input=input,
         output=output,
@@ -32,28 +42,34 @@ def create_room(request):
     })
 
 def join_room(request):
+    # get the room
     roomid = request.REQUEST['roomid']
     room = vidi.get_room(roomid)
 
-    # get the first client (room creator)
+    # get the first client (room creator) and its io
     clients = room.get_clients()
     client1 = clients[0]
     input1 = client1.get_inputs()[0]
     output1 = client1.get_outputs()[0]
 
-    # create our client
+    # create the new client (joined room) and io
     client2 = room.create_client()
     input2 = client2.create_input()
     output2 = client2.create_output()
 
-    # bind two clients
+    # bind two clients (cross connection to make them talk with each other)
     binding1 = room.bind(input1, output2)
     binding2 = room.bind(input2, output1)
 
+    # get vidi initialize javascript code
     vidi_init_js = vidi.get_init_js(room, client2)
+
+    # get localecho screen html/javascript code
     vidi_screen_localecho = vidi.create_screen(
         localecho=True,
     )
+
+    # get remote screen html/javascript code
     vidi_screen_remote = vidi.create_screen(
         input=input2,
         output=output2,

@@ -73,7 +73,6 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
-    'vidi',
     'friendmeet',
 )
 
