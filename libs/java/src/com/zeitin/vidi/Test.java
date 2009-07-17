@@ -1,9 +1,8 @@
+import com.zeitin.vidi.*;
 
 public class Test {
 
 	public static void main(String[] args) {
-
-		
 		
 		Vidi vidi = new Vidi();
 		
@@ -13,10 +12,10 @@ public class Test {
 		Client client = room.create_client();
 		System.out.println(client);
 		
-		Input input = client.create_Input();
+		Input input = client.createInput();
 		System.out.println(input);
 		
-		Output output = client.create_Output();
+		Output output = client.createOutput();
 		System.out.println(output);
 		
 		Binding binding = room.create_binding(input, output);
@@ -24,19 +23,19 @@ public class Test {
 		
 		System.out.println(vidi.getRooms());
 		System.out.println(vidi.getRoom(room.getId()));
-		System.out.println(room.get_clients());
-		System.out.println(room.get_client(client.getId()));
-		System.out.println(room.get_bindings());
-		System.out.println(client.get_inputs());
-		System.out.println(client.get_input(input.getId()));
-		System.out.println(client.get_outputs());
-		System.out.println(client.get_output(output.getId()));
+		System.out.println(room.getClients());
+		System.out.println(room.getClient(client.getId()));
+		System.out.println(room.getBindings());
+		System.out.println(client.getInputs());
+		System.out.println(client.getInput(input.getId()));
+		System.out.println(client.getOutputs());
+		System.out.println(client.getOutput(output.getId()));
 		
-		Binding binding2 = room.get_binding(binding.getId());
+		Binding binding2 = room.getBinding(binding.getId());
 		System.out.println(binding2.getInput());
 		System.out.println(binding2.getOutput());
 		
-		room.send_message("hello room");
+		room.sendMessage("hello room");
 //		client.send_message("hello client");
 		
 		Desktop desktop = vidi.getDesktop("1");

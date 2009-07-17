@@ -1,3 +1,5 @@
+package com.zeitin.vidi;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -47,7 +49,7 @@ public class Room {
 		return "Vidi room object: " + this.id;
 	}
 
-	public ArrayList<Client> get_clients() {
+	public ArrayList<Client> getClients() {
 		Map<String, String> parameters = new HashMap<String, String>();
 		String url = vidi.getAddress() + "/clients";
 		parameters.put("apikey", vidi.getApikey());
@@ -61,11 +63,11 @@ public class Room {
 		return clients;
 	}
 
-	public Client get_client(String id) {
+	public Client getClient(String id) {
 		return new Client(this, id);
 	}
 
-	public ArrayList<Binding> get_bindings() {
+	public ArrayList<Binding> getBindings() {
 		Map<String, String> parameters = new HashMap<String, String>();
 		String url = vidi.getAddress() + "/bindings";
 		parameters.put("apikey", vidi.getApikey());
@@ -73,7 +75,6 @@ public class Room {
 		String response = vidi.request(url, "GET", parameters);
 		String bindingIds[] = response.split(" ");
 		ArrayList<Binding> bindings = new ArrayList<Binding>();
-
 		for(int i = 0; i < bindingIds.length; i++) {
 			parameters = new HashMap<String, String>();
 			url += "/io";
@@ -85,7 +86,7 @@ public class Room {
 		return bindings;
 	}
 
-	public Binding get_binding(String id) {
+	public Binding getBinding(String id) {
 		Map<String, String> parameters = new HashMap<String, String>();
 		String url = vidi.getAddress() + "/bindings/io";
 		parameters.put("apikey", vidi.getApikey());
@@ -94,7 +95,7 @@ public class Room {
 		return new Binding(this, id, new Input(this, response.split(" ")[0]), new Output(this, response.split(" ")[1]));
 	}
 
-	public void send_message(String message) {
+	public void sendMessage(String message) {
 		Map<String, String> parameters = new HashMap<String, String>();
 		String url = vidi.getAddress() + "/rooms/send_message";
 		parameters.put("apikey", vidi.getApikey());

@@ -1,3 +1,5 @@
+package com.zeitin.vidi;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -188,7 +190,6 @@ public class Vidi {
 		String response = request(url, "GET", parameters);
 		String keys[] = response.split(" ");
 		ArrayList<String> properties = new ArrayList<String>();
-
 		for (int i = 0; i < keys.length; i++) {
 			properties.add(keys[i]);
 		}
@@ -239,23 +240,17 @@ public class Vidi {
 	}
 
 	public String createScreen(Object... args) {
-
 		String divid = "vidi_screen_" + (int) (Math.random() * 10000 + 1);
-		
 		HashMap<String, String> params = new HashMap<String, String>();
-
 		if(contain("Input", args) != -1) {	
 			Input input = (Input) args[contain("Input", args)];
 			params.put("inputid", input.getId());
 		}
-		
 		if(contain("Output", args) != -1) {	
 			Output output = (Output) args[contain("Output", args)];
 			params.put("outputid", output.getId());
 		}
-
 		String html;
-		
 		if(contain("String", args) != -1) {
 			html = "<script type=\"text/javascript\">";
 			html += "\nvidi.createScreen(";
@@ -268,18 +263,15 @@ public class Vidi {
 			html += JSONObject.toJSONString(params).toString() + ");";
 			html += "\n</script>";
 		}
-
 		return html;
 	}
-	
+
 	private int contain(String key, Object args[]) {
-		
 		for(int i = 0; i < args.length; i++) {
 			if(args[i].getClass().getName().equals(key)) {
 				return i;
 			}
 		}
-		
 		return -1;
 	}
 }
