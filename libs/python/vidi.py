@@ -2,7 +2,7 @@ import httplib, urllib
 import simplejson as json
 import random
 
-REST_HOST = 'prod.vidi.zeitin.com'
+REST_HOST = 'api.vidi.zeitin.com'
 REST_URL = '/vidi/rest/'
 
 class Vidi(object):

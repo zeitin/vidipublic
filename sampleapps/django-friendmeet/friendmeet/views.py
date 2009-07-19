@@ -25,12 +25,14 @@ def create_room(request):
 
     # get localecho screen html/javascript code
     vidi_screen_localecho = vidi.create_screen(
+        input=input,
         localecho=True,
     )
 
     # get remote screen html/javascript code
     vidi_screen_remote = vidi.create_screen(
-        input=input,
+        camera=False,
+        mic=False,
         output=output,
     )
 
@@ -67,11 +69,13 @@ def join_room(request):
     # get localecho screen html/javascript code
     vidi_screen_localecho = vidi.create_screen(
         localecho=True,
+        input=input2,
     )
 
     # get remote screen html/javascript code
     vidi_screen_remote = vidi.create_screen(
-        input=input2,
+        camera=False,
+        mic=False,
         output=output2,
     )
 
