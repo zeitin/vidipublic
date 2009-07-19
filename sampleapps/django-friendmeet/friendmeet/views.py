@@ -5,13 +5,21 @@ from django.utils.safestring import mark_safe
 
 from vidi import Vidi
 
-# create a vidi session
-vidi = Vidi(settings.VIDI_APIKEY)
 
 def index(request):
     return render_to_response('index.html')
 
 def create_room(request):
+    if request.GET.has_key('apikey'):
+        apikey = request.GET['apikey']
+        demo_apikey = apikey
+    else:
+        apikey = settings.VIDI_APIKEY
+        demo_apikey = False
+
+    # create a vidi session
+    vidi = Vidi(apikey)
+
     # create the room
     room = vidi.create_room()
 
@@ -38,12 +46,23 @@ def create_room(request):
 
     return render_to_response('room.html', {
         'roomid': room.id,
+        'apikey': demo_apikey,
         'vidi_init_js': mark_safe(vidi_init_js),
         'vidi_screen_localecho': mark_safe(vidi_screen_localecho),
         'vidi_screen_remote': mark_safe(vidi_screen_remote),
     })
 
 def join_room(request):
+    if request.GET.has_key('apikey'):
+        apikey = request.GET['apikey']
+        demo_apikey = apikey
+    else:
+        apikey = settings.VIDI_APIKEY
+        demo_apikey = False
+
+    # create a vidi session
+    vidi = Vidi(apikey)
+
     # get the room
     roomid = request.REQUEST['roomid']
     room = vidi.get_room(roomid)
@@ -81,6 +100,7 @@ def join_room(request):
 
     return render_to_response('room.html', {
         'roomid': room.id,
+        'apikey': demo_apikey,
         'vidi_init_js': mark_safe(vidi_init_js),
         'vidi_screen_localecho': mark_safe(vidi_screen_localecho),
         'vidi_screen_remote': mark_safe(vidi_screen_remote),

@@ -332,6 +332,11 @@ def request(url, method, parameters):
     response = conn.getresponse()
     if response.status == 200:
         data = json.loads(response.read())
+        try:
+            if data.has_key('error') and data['error']:
+                raise VidiError(data['error_desc'])
+        except AttributeError:
+            pass
         conn.close()
         return data
     else:

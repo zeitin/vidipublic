@@ -76,4 +76,4 @@ INSTALLED_APPS = (
     'friendmeet',
 )
 
-VIDI_APIKEY = '5d08ef89a83fc2cc7cd6ff2626c45b6d6b040ed5'
+VIDI_APIKEY = ''
