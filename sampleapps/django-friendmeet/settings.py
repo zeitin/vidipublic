@@ -77,3 +77,4 @@ INSTALLED_APPS = (
 )
 
 VIDI_APIKEY = ''
+BASE_URL = 'http://localhost:8080/'

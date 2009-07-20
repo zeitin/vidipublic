@@ -5,9 +5,10 @@ from django.utils.safestring import mark_safe
 
 from vidi import Vidi
 
-
 def index(request):
-    return render_to_response('index.html')
+    return render_to_response('index.html', {
+        'BASE_URL': settings.BASE_URL,
+    })
 
 def create_room(request):
     if request.GET.has_key('apikey'):
@@ -46,10 +47,11 @@ def create_room(request):
 
     return render_to_response('room.html', {
         'roomid': room.id,
-        'apikey': demo_apikey,
         'vidi_init_js': mark_safe(vidi_init_js),
         'vidi_screen_localecho': mark_safe(vidi_screen_localecho),
         'vidi_screen_remote': mark_safe(vidi_screen_remote),
+        'apikey': demo_apikey,
+        'BASE_URL': settings.BASE_URL,
     })
 
 def join_room(request):
@@ -100,9 +102,10 @@ def join_room(request):
 
     return render_to_response('room.html', {
         'roomid': room.id,
-        'apikey': demo_apikey,
         'vidi_init_js': mark_safe(vidi_init_js),
         'vidi_screen_localecho': mark_safe(vidi_screen_localecho),
         'vidi_screen_remote': mark_safe(vidi_screen_remote),
+        'apikey': demo_apikey,
+        'BASE_URL': settings.BASE_URL,
     })
 

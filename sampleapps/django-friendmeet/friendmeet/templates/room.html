@@ -23,9 +23,9 @@
 <p>
     Send this link to a friend to meet:
     {% if apikey %}
-        <a href="/join_room/?roomid={{roomid}}&apikey={{apikey}}">Link</a>
+        <a href="{{BASE_URL}}join_room/?roomid={{roomid}}&apikey={{apikey}}">{{BASE_URL}}join_room/?roomid={{roomid}}&apikey={{apikey}}</a>
     {% else %}
-        <a href="/join_room/?roomid={{roomid}}">Link</a>
+        <a href="{{BASE_URL}}join_room/?roomid={{roomid}}">{{BASE_URL}}join_room/?roomid={{roomid}}</a>
     {% endif %}
 </p>
 
