@@ -6,7 +6,15 @@ from django.utils.safestring import mark_safe
 from vidi import Vidi
 
 def index(request):
+    if request.GET.has_key('apikey'):
+        apikey = request.GET['apikey']
+        demo_apikey = apikey
+    else:
+        apikey = settings.VIDI_APIKEY
+        demo_apikey = False
+
     return render_to_response('index.html', {
+        'apikey': demo_apikey,
         'BASE_URL': settings.BASE_URL,
     })
 
