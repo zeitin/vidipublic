@@ -1,0 +1,16 @@
+; sample config file for vidi
+
+[user]
+apikey = ""
+
+[urls]
+
+## NORMAL
+vidi_js = "http://api.vidi.zeitin.com/vidi/static/vidi.js"
+wsdl_server = "http://api.vidi.zeitin.com/vidi/services/vidiservice"
+
+## SECURE
+# vidi_js = "https://localhost:7443/vidi/static/vidi.js"
+# wsdl_server = "https://localhost:7443/vidi/services/vidiservice"
+
+postback_url = "http://localhost/~user/test/postback.php"
