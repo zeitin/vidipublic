@@ -133,7 +133,7 @@ if ( (!$roomid) || (!in_array($roomid,$rooms))) {
 	
 ?>
 	wsdl url: <?=$wsdl_url;?><br />
-	apikey: <a href="<?=getlink("?logout=1");?>">[d]</a> <? if (!$hide_apikey) {echo $token} ?><br>
+	apikey: <a href="<?=getlink("?logout=1");?>">[d]</a> <? if (!$hide_apikey) echo $token; ?><br>
 	record: <input id="recordRoom" type="checkbox" name="recordRoom" />,
 	<a id="createRoom" href="<?=getlink("?createRoom=1");?>">+[R]</a>, rooms:
 	<?
