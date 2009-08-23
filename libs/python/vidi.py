@@ -25,6 +25,27 @@ class Vidi(object):
         })[0]
         return Room(self, roomid)
 
+    def get_property(self, key, access='private'):
+        value = request('properties/get', 'GET', {
+            'apikey': self.apikey,
+            'where': 'apikey',
+            'id': self.id,
+            'key': key,
+            'access': access,
+        })
+        return value and value[0]
+
+    def set_property(self, key, value, access='private'):
+        result = request('properties/set', 'POST', {
+            'apikey': self.apikey,
+            'where': 'apikey',
+            'id': self.id,
+            'key': key,
+            'value': value,
+            'access': access,
+        })[0]
+        return result
+
     def get_desktop(self, desktopid):
         return Desktop(self, desktopid)
 
@@ -157,6 +178,27 @@ class Room(object):
             'roomid': self.roomid,
         })
 
+    def get_property(self, key, access='private'):
+        value = request('properties/get', 'GET', {
+            'apikey': self.vidi.apikey,
+            'where': 'roomid',
+            'id': self.roomid,
+            'key': key,
+            'access': access,
+        })
+        return value and value[0]
+
+    def set_property(self, key, value, access='private'):
+        result = request('properties/set', 'POST', {
+            'apikey': self.vidi.apikey,
+            'where': 'roomid',
+            'id': self.roomid,
+            'key': key,
+            'value': value,
+            'access': access,
+        })[0]
+        return result
+
     def __repr__(self):
         return '<Vidi Room Object (roomid: %s)>' % self.roomid
 
@@ -214,6 +256,27 @@ class Client(object):
             'clientid': self.clientid,
         })
 
+    def get_property(self, key, access='private'):
+        value = request('properties/get', 'GET', {
+            'apikey': self.vidi.apikey,
+            'where': 'clientid',
+            'id': self.clientid,
+            'key': key,
+            'access': access,
+        })
+        return value and value[0]
+
+    def set_property(self, key, value, access='private'):
+        result = request('properties/set', 'POST', {
+            'apikey': self.vidi.apikey,
+            'where': 'clientid',
+            'id': self.clientid,
+            'key': key,
+            'value': value,
+            'access': access,
+        })[0]
+        return result
+
     def __repr__(self):
         return '<Vidi Client Object (clientid: %s)>' % self.clientid
 
@@ -238,6 +301,40 @@ class Input(object):
             'inputid': self.inputid,
         })
 
+    def play_video(self, videofile):
+        request('inputs/play_video', 'GET', {
+            'apikey': self.vidi.apikey,
+            'inputid': self.inputid,
+            'videofile': videofile,
+        })
+
+    def is_active(self):
+        request('inputs/isactive', 'GET', {
+            'apikey': self.vidi.apikey,
+            'inputid': self.inputid,
+        })
+
+    def get_property(self, key, access='private'):
+        value = request('properties/get', 'GET', {
+            'apikey': self.vidi.apikey,
+            'where': 'inputid',
+            'id': self.inputid,
+            'key': key,
+            'access': access,
+        })
+        return value and value[0]
+
+    def set_property(self, key, value, access='private'):
+        result = request('properties/set', 'POST', {
+            'apikey': self.vidi.apikey,
+            'where': 'inputid',
+            'id': self.inputid,
+            'key': key,
+            'value': value,
+            'access': access,
+        })[0]
+        return result
+
     def __repr__(self):
         return '<Vidi Input Object (inputid: %s)>' % self.inputid
 
@@ -254,6 +351,33 @@ class Output(object):
             'apikey': self.vidi.apikey,
             'outputid': self.outputid,
         })
+
+    def is_active(self):
+        request('outputs/isactive', 'GET', {
+            'apikey': self.vidi.apikey,
+            'outputid': self.outputid,
+        })
+
+    def get_property(self, key, access='private'):
+        value = request('properties/get', 'GET', {
+            'apikey': self.apikey,
+            'where': 'outputid',
+            'id': self.outputid,
+            'key': key,
+            'access': access,
+        })
+        return value and value[0]
+
+    def set_property(self, key, value, access='private'):
+        result = request('properties/set', 'POST', {
+            'apikey': self.apikey,
+            'where': 'outputid',
+            'id': self.outputid,
+            'key': key,
+            'value': value,
+            'access': access,
+        })[0]
+        return result
 
     def __repr__(self):
         return '<Vidi Output Object (outputid: %s)>' % self.outputid
@@ -291,6 +415,33 @@ class Binding(object):
         self.input = Input(self.vidi, self.room, None, io[0])
         self.output = Output(self.vidi, self.room, None, io[1])
 
+    def is_active(self):
+        request('bindings/isactive', 'GET', {
+            'apikey': self.vidi.apikey,
+            'inputid': self.bindingid,
+        })
+
+    def get_property(self, key, access='private'):
+        value = request('properties/get', 'GET', {
+            'apikey': self.vidi.apikey,
+            'where': 'bindingid',
+            'id': self.bindingid,
+            'key': key,
+            'access': access,
+        })
+        return value and value[0]
+
+    def set_property(self, key, value, access='private'):
+        result = request('properties/set', 'POST', {
+            'apikey': self.vidi.apikey,
+            'where': 'bindingid',
+            'id': self.bindingid,
+            'key': key,
+            'value': value,
+            'access': access,
+        })[0]
+        return result
+
     def __repr__(self):
         return '<Vidi Binding Object (bindingid: %s)>' % self.bindingid
 
@@ -307,15 +458,16 @@ class Desktop(object):
             'message': message,
         })
 
-    def ring(self, message='1'):
+    def ring(self, count='1'):
         request('desktop/ring', 'POST', {
             'apikey': self.vidi.apikey,
             'desktopid': self.desktopid,
-            'message': message,
+            'count': count,
         })
 
     def __repr__(self):
         return '<Vidi Desktop Object (desktopid: %s)>' % self.desktopid
+
 
 
 def request(url, method, parameters):
