@@ -309,10 +309,11 @@ class Input(object):
         })
 
     def is_active(self):
-        request('inputs/isactive', 'GET', {
+        value = request('inputs/isactive', 'GET', {
             'apikey': self.vidi.apikey,
             'inputid': self.inputid,
         })
+        return value and value[0]
 
     def get_property(self, key, access='private'):
         value = request('properties/get', 'GET', {
@@ -353,10 +354,11 @@ class Output(object):
         })
 
     def is_active(self):
-        request('outputs/isactive', 'GET', {
+        value = request('outputs/isactive', 'GET', {
             'apikey': self.vidi.apikey,
             'outputid': self.outputid,
         })
+        return value and value[0]
 
     def get_property(self, key, access='private'):
         value = request('properties/get', 'GET', {
@@ -416,10 +418,11 @@ class Binding(object):
         self.output = Output(self.vidi, self.room, None, io[1])
 
     def is_active(self):
-        request('bindings/isactive', 'GET', {
+        value = request('bindings/isactive', 'GET', {
             'apikey': self.vidi.apikey,
             'inputid': self.bindingid,
         })
+        return value and value[0]
 
     def get_property(self, key, access='private'):
         value = request('properties/get', 'GET', {
