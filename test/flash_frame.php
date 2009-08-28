@@ -108,6 +108,7 @@ $default_outputid = $_GET["outputid"];
 				vibapp.speaker.checked = true;
 				vibapp.mic.checked = true;
 				vibapp.localecho.checked = false;
+				vibapp.localecho_mirror.checked = false;
 			}
 
 			vibapp.select_textchat = function select_textchat() {
@@ -134,6 +135,7 @@ $default_outputid = $_GET["outputid"];
 				vibapp.select_defaults();
 				vibapp.outputid.value = '';
 				vibapp.localecho.checked = true;
+				vibapp.localecho_mirror.checked = true;
 				vibapp.mic.checked=false;
 				vibapp.speaker.checked=false;
 				vibapp.togglesetting();
@@ -181,7 +183,9 @@ $default_outputid = $_GET["outputid"];
 					screen_smoothing:vibapp.screen_smoothing.checked,
 					camera_localcompress: vibapp.camera_localcompress.checked,
 					bwcheck: vibapp.bwcheck.checked,
-					localecho:vibapp.localecho.checked  };
+					localecho:vibapp.localecho.checked,
+					localecho_mirror:vibapp.localecho_mirror.checked
+				};
 				if (vibapp.screen_height.value) {
 					oo.screen_height = vibapp.screen_height.value;
 				}
@@ -390,6 +394,7 @@ selectedRoom:<div id="upselectRoom">whatRoom?</div>
 <label>inputid:<input size=8 id="inputid" value="<?=$default_inputid;?>"/></label>
 <label>outputid:<input size=8 id="outputid" value="<?=$default_outputid;?>"/></label> or
 <label><input id="localecho" type="checkbox" />localecho</label>
+<label><input id="localecho_mirror" type="checkbox" />localecho_mirror</label>
 <br />
 
 <label><input id="camera" type="checkbox" checked="checked" onchange="vibapp.togglesetting()"/>camera</label><br />
@@ -506,6 +511,7 @@ selectedRoom:<div id="upselectRoom">whatRoom?</div>
 			vibapp.speaker = document.getElementById("speaker");
 			vibapp.mic = document.getElementById("mic");
 			vibapp.localecho = document.getElementById("localecho");
+			vibapp.localecho_mirror = document.getElementById("localecho_mirror");
 			vibapp.screen_height = document.getElementById("screen_height");
 			vibapp.screen_width = document.getElementById("screen_width");
 			vibapp.screen_smoothing = document.getElementById("screen_smoothing");
