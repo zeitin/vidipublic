@@ -24,8 +24,7 @@ public class Vidi {
 	public static final String PUBLIC = "public";
 	private String address;
 	private String apikey;
-	// private String REST_HOST = "http://prod.vidi.zeitin.com";
-	private String REST_HOST = "http://192.168.199.69";
+	private String REST_HOST = "http://api.vidi.zeitin.com";
 	private String REST_URL = "/vidi/rest";
 
 	public Vidi() {
