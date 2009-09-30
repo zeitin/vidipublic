@@ -76,8 +76,8 @@ $_REQUEST["clientid"] = $clientid;
 				container.appendChild(newdiv);
 				newscreen = vidi.createVidi({
 					divid: outputid,
-					screen_width: 160,
-					screen_height: 120,
+					screen_width: <?=$config["camera_width"]?>,
+					screen_height: <?=$config["camera_height"]?>,
 					camera: false,
 					screen: true,
 					localecho: false,
@@ -107,33 +107,59 @@ $_REQUEST["clientid"] = $clientid;
 					} else if (action == "leave") {
 						destroy_screen(outputid);
 					}
+				} else if (cmd == "received_textchat") {
+					new_chat_message_comes(obj.message);
 				}
+			}
+			function new_chat_message_comes(message) {
+				var chatbox = document.getElementById("chatbox")
+				chatbox.innerHTML = chatbox.innerHTML + "\n" + message;
+				chatbox.scrollTop = chatbox.scrollHeight;
+			}
+			function check_chat_enter_key(e) {
+				var ev = e || window.event;
+				var keycode = ev.which || ev.keyCode;
+				if (keycode == 13) send_chat_message();
+			}
+			function send_chat_message() {
+				var input = document.getElementById("chat_message")
+				var message = input.value;
+				if (!message) return;
+				globals.master.sendTextMsg({msg:message});
+				input.value = "";
 			}
 		</script>
 		<h1><?=$roomname?>(<?=$roomid?>)</h1>
-		<div id="master"></div>
+		<table><tr><td>
+			<div id="master"></div>
+		</td><td>
+			<textarea cols="25" rows="8" id="chatbox"></textarea>
+			<br />
+			<input onkeydown="check_chat_enter_key(event)" id="chat_message" />
+			<input type="button" value="Send" onclick="send_chat_message(); return false;" />
+		</td></tr></table>
 		<div id="container"></div>
 		<script>
 			vidi.initialize({
 				clientid: '<?=$clientid?>',
 				roomid: '<?=$roomid?>',
-				debug: false,
+				debug: <?=$config["debug"]?>,
 				callback: vidi_handler
 			});
-			vidi.createVidi({
+			globals.master = vidi.createVidi({
 				divid: 'master',
-				camera_width: 160,
-				camera_height: 120,
+				camera_width: <?=$config["camera_width"]?>,
+				camera_height: <?=$config["camera_height"]?>,
 				/* min 4:3 ratio screen size which can show flash permission box */
-				screen_width: 215,
-				screen_height: 161,
+				screen_width: <?=$config["screen_width"]?>,
+				screen_height: <?=$config["screen_height"]?>,
 				camera: true,
 				screen: true,
 				localecho: true,
 				mic: true,
 				speaker: false,
 				inputid: '<?=$inputid?>',
-				camera_bandwidth: 100
+				camera_bandwidth: <?=$config["camera_bandwidth"]?>
 			});
 			var outputids = ['<?=join("','", $outputs);?>'];
 			for (var i in outputids) {

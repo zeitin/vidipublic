@@ -1,6 +1,16 @@
 [general]
 apikey = apikey_comes_here
 
+; debug must be 0 or 1
+debug = 1
+
 vidi_js_path = http://api.vidi.zeitin.com/vidi/static/vidi.js
 wsdl_url = http://api.vidi.zeitin.com/vidi/services/vidiservice
 ; dont forget to set your postback address from vidi settings screen
+
+camera_bandwidth = 100
+camera_width = 160
+camera_height = 120
+; min 4:3 ratio screen size which can show flash permission box
+screen_width = 215
+screen_height = 161
