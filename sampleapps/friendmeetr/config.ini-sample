@@ -1,0 +1,6 @@
+[general]
+apikey = apikey_comes_here
+
+vidi_js_path = http://api.vidi.zeitin.com/vidi/static/vidi.js
+wsdl_url = http://api.vidi.zeitin.com/vidi/services/vidiservice
+; dont forget to set your postback address from vidi settings screen
