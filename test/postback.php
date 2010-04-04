@@ -16,8 +16,8 @@ switch($_REQUEST["event"]) {
 		$clientid = $_REQUEST["clientid"];
 		$message = $_REQUEST["message"];
 		mylog("client_says clientid:$clientid message:$message");
-		$token = $soapclient->login($apiuser, $apipass, $postback_url);
-		$soapclient->tellClient($token,$clientid,"SERVER_SENDS_ECHO:".$message);
+		$token = $apikey;
+		$soapclient->tellClient($token,$clientid,$message);
 		break;
 	case 'client_left_room':
 		$clientid = $_REQUEST["clientid"];
