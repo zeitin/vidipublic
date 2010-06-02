@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    padding: 0px;
+}
+
+#login_form_container {
+    border: solid 1px;
+    width: 350px;
+    height: 350px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+}
+
+#chat_container {
+    border: solid 1px;
+    float: left;
+    text-align: left;
+}
+
+#client_list_container {
+    width: 150px;
+    border: solid 1px;
+    float: left;
+    margin-left: 10px;
+}
+
+#chatbox {
+    padding: 5px;
+    overflow: auto;
+}
+
+#controls {
+    padding: 5px;
+}
+
+#chat_message {
+    float: left;
+}
+
+#send_message {
+    height: 50px;
+    float: right;
+}
