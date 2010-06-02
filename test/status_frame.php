@@ -55,6 +55,15 @@ if ($_GET["bind"] == "1") {
 	$soapclient->bind($token, $_GET["inputid"], $_GET["outputid"]);
 };
 
+if ($_GET["tellClient"] == "1") {
+	$soapclient->tellClient($token, $_GET["clientid"], $_GET["message"]);
+};
+
+if ($_GET["sendTextMessage"] == "1") {
+	$soapclient->sendTextMessage($token, $_GET["roomid"], $_GET["message"]);
+};
+
+
 if ($_GET["unbind"] == "1") {
 	$soapclient->unbindio($token, $_GET["inputid"], $_GET["outputid"]);
 };
@@ -160,7 +169,12 @@ print ")";
 print "<input type=hidden name=bind value=1> ";
 print "</form>";
 print ' <A HREF="'.getlink("?createClient=1&roomid=".$roomid).'" >+[C]</A>';	
-print "<br>";
+print "<br><form style='display:inline' > <input ";
+print " type=submit value='sendTextMessage' id='sendTextMessage' />";
+print "<input id=message type=text name=message size=15>";
+print "<input id=roomid type=hidden value='".$roomid."' name=roomid size=15>";
+print "<input type=hidden name=sendTextMessage value=1> ";
+print "</form>";
 
 foreach ($clients as $clientid) {
 	print "<hr />";
@@ -180,6 +194,13 @@ foreach ($clients as $clientid) {
 	print ")";
 	print " <A HREF=?createInput=1&clientid=".$clientid." >+[I]</A>";
 	print " <A HREF=?createOutput=1&clientid=".$clientid." >+[O]</A>";
+	print "<br><form style='display:inline' > <input ";
+	print " type=submit value='tellClient' id='tellClient' />";
+	print "<input id=message type=text name=message size=15>";
+	print "<input id=clientid type=hidden value='".$clientid."' name=clientid size=15>";
+	print "<input type=hidden name=tellClient value=1> ";
+	print "</form>";
+
 	print "\n";
 	print "<table border=0>";
 	// inputs
