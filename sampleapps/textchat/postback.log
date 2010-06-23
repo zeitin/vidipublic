@@ -1752,3 +1752,520 @@ postback_log :: hede
 [postback.php:17] start. e-'client_left_room' r-'r2728006' c-'c3388675' i-'none' o-'none' b-'none' ic-'none' oc-'none'
 [postback.php:33] postback received: client_left_room
 [postback.php:83] end.
+[postback.php:17] start. e-'none' r-'none' c-'none' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'none' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1253374699' c-'c540841494' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_expired' r-'r1253374699' c-'c540841494' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:63] postback received: client_expired
+[postback.php:83] end.
+[postback.php:17] start. e-'room_expired' r-'r1253374699' c-'none' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:68] postback received: room_expired
+[postback.php:83] end.
+[postback.php:17] start. e-'session_expired' r-'none' c-'none' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:71] postback received: session_expired
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1398556044' c-'c1723539117' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_expired' r-'r1398556044' c-'c1723539117' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:63] postback received: client_expired
+[postback.php:83] end.
+[postback.php:17] start. e-'room_expired' r-'r1398556044' c-'none' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:68] postback received: room_expired
+[postback.php:83] end.
+[postback.php:17] start. e-'session_expired' r-'none' c-'none' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:71] postback received: session_expired
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r903179198' c-'c443667098' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c443667098' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c443667098' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_left_room' r-'r903179198' c-'c443667098' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r903179198' c-'c762843784' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r903179198' c-'c762843784' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r903179198' c-'c992502906' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r903179198' c-'c992502906' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r903179198' c-'c490902680' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r903179198' c-'c490902680' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r903179198' c-'c393689620' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r903179198' c-'c393689620' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r903179198' c-'c256866950' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r903179198' c-'c256866950' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r903179198' c-'c606146812' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r903179198' c-'c606146812' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r903179198' c-'c1832413009' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r903179198' c-'c1832413009' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_expired' r-'r903179198' c-'c521679231' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:63] postback received: client_expired
+[postback.php:83] end.
+[postback.php:17] start. e-'room_expired' r-'r903179198' c-'none' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:68] postback received: room_expired
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1633780158' c-'c679629913' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r1633780158' c-'c679629913' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1633780158' c-'c679629913' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1633780158' c-'c679629913' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_joined_room' r-'r582216281' c-'c1271737673' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1391206302' c-'c367043203' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1391206302' c-'c410596662' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c367043203' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c367043203' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c367043203' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1391206302' c-'c1675994588' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1675994588' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1675994588' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1675994588' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1675994588' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1675994588' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1675994588' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1675994588' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1675994588' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1675994588' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1802245312' c-'c1392102373' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r1802245312' c-'c1392102373' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r1391206302' c-'c1675994588' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1391206302' c-'c1958739002' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1986875184' c-'c1852151826' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r1391206302' c-'c367043203' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r1391206302' c-'c410596662' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1391206302' c-'c1181487996' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r1391206302' c-'c1181487996' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r1391206302' c-'c1958739002' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1391206302' c-'c316217735' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c316217735' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c316217735' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_left_room' r-'r1391206302' c-'c316217735' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r1986875184' c-'c1852151826' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1391206302' c-'c45203154' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r1391206302' c-'c45203154' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1391206302' c-'c583745848' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c583745848' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_left_room' r-'r1391206302' c-'c583745848' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1391206302' c-'c1711323429' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1711323429' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1711323429' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1391206302' c-'c1828826140' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1828826140' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1711323429' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1711323429' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1711323429' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1711323429' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1711323429' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_left_room' r-'r1391206302' c-'c1711323429' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1391206302' c-'c539439084' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c539439084' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c539439084' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_left_room' r-'r1391206302' c-'c1828826140' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r1391206302' c-'c539439084' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1391206302' c-'c1672359023' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1672359023' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1672359023' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1672359023' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1672359023' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c1672359023' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1391206302' c-'c150326234' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c150326234' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c150326234' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c150326234' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'text_message' r-'r1391206302' c-'c150326234' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_left_room' r-'r1391206302' c-'c150326234' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1722329116' c-'c819697057' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r1722329116' c-'c819697057' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_left_room' r-'r1722329116' c-'c819697057' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r1722329116' c-'c431432310' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'text_message' r-'r1722329116' c-'c431432310' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'text_message' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'room_expired' r-'r1722329116' c-'none' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:17] start. e-'session_expired' r-'none' c-'none' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:68] postback received: room_expired
+[postback.php:71] postback received: session_expired
+[postback.php:83] end.
+[postback.php:17] start. e-'client_expired' r-'r1722329116' c-'c431432310' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:83] end.
+[postback.php:63] postback received: client_expired
+[postback.php:83] end.

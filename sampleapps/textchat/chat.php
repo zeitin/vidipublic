@@ -135,13 +135,19 @@ $chat_message_width = $width - 90;
 
             function createScreen(settings) {
                 return vidi.createVidi(settings);
-            }
+            } 
+
             
             function receive_chat_message(message) {
+               
                 var temp = message.split("::");
                 var name = temp[0];
                 var msg = temp[1];
                 log("received message "+message);
+                if(name!=globals.client_name)
+                    
+                  {globals.screen.playSound({"sound" :"pop.mp3"}); }
+                
                 msg = msg.replace(/<[a-z1-9]+[>|a-z1-9]/g, "");
                 msg = msg.replace(/\n/g, "<br />");
                 log(msg);
@@ -152,6 +158,9 @@ $chat_message_width = $width - 90;
             }
 
             function send_to_server(screen,client_name,message) {
+                
+                
+               // globals.screen.playSound({"sound" :"http://192.168.199.104/~apurva/textchat/pop.mp3"}); 
                 message = message.replace(/\n$/,"");
                 var message_text = client_name+"::"+message;
                 log("sent mesage "+message_text);
@@ -159,6 +168,10 @@ $chat_message_width = $width - 90;
             }
 
             function send_message() {
+                    
+                
+                //globals.localecho_screen.playSound({"sound" :"/home/apurva/projects/vidipublic/sampleapps/textchat/pop.mp3"}); 
+                    
                     send_to_server(globals.screen, globals.client_name, $("#chat_message").val());
                     $("#chat_message").focus();
                     $("#chat_message").val("");
@@ -203,6 +216,7 @@ $chat_message_width = $width - 90;
                     }    
                 } else if (cmd == "received_textchat") {
                     receive_chat_message(obj.message);
+                    /* localecho_screen.playSound({"sound" :media_url+"default/audio/pop.mp3"})*/
                 } else {
                     log("undefined callback");
                 }
@@ -222,6 +236,8 @@ $chat_message_width = $width - 90;
                 $("#chat_message").focus();
                 $("#send_message").click(function() {
                     send_message();
+/* localecho_screen.playSound({"sound" :media_url+"default/audio/pop.mp3"});*/
+
                 });
 
 
@@ -252,8 +268,8 @@ $chat_message_width = $width - 90;
                 <div id="screen_container"></div>
                 <div id="chatbox"style=" width: <?=$chatbox_width?>px; height: <?=$chatbox_height?>px;"></div>
                 <div id="controls" style="width: <?=$controls_width?>px; height: <?=$controls_height?>px;">
-                    <textarea id="chat_message" style="width: <?=$chat_message_width?>px;" disabled></textarea>
-                    <input type="button" value="Gönder" id="send_message" disabled/>
+                    <textarea id="chat_message" style="width: <?=$chat_message_width?>px;" enabled></textarea>
+                    <input type="button" value="ENTER" id="send_message"  enabled />
                 </div>
             </div>
             <div id="client_list_container" style="height: <?=$height?>px; display: <?=$show_client_list?>">
