@@ -9,8 +9,8 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-DATABASE_ENGINE = ''           # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-DATABASE_NAME = ''             # Or path to database file if using sqlite3.
+DATABASE_ENGINE = 'sqlite3'           # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+DATABASE_NAME = 'datab1'             # Or path to database file if using sqlite3.
 DATABASE_USER = ''             # Not used with sqlite3.
 DATABASE_PASSWORD = ''         # Not used with sqlite3.
 DATABASE_HOST = ''             # Set to empty string for localhost. Not used with sqlite3.
@@ -67,6 +67,8 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'urls'
 
 TEMPLATE_DIRS = (
+   
+    '/home/apurva/projects/vidipublic/sampleapps/django-friendmeet/friendmeet/templates'    
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -76,5 +78,5 @@ INSTALLED_APPS = (
     'friendmeet',
 )
 
-VIDI_APIKEY = ''
-BASE_URL = 'http://localhost:8080/'
+VIDI_APIKEY = '7b0dfa22e269111291e7776c190a66c2f26166fe'
+BASE_URL = 'http://localhost:8090/'                      

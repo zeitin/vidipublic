@@ -2,14 +2,20 @@
 <head>
 	<title>Friendmeet - sample vidi application</title>
 </head>
-<body>
-<h1>Welcome to Friendmeet!</h1>
 
+    <center>
+<h1>Welcome to Friendmeet!</h1>
+<hr color="green"/>   
 <h2>Create a new room</h2>
 <form action="{{BASE_URL}}create_room/" method="get">
-	<input type="hidden" name="apikey" value="{{apikey}}" />
-	<input type="submit" value="Create room!" />
-</form>
+  <input type="hidden" name="apikey" value="{{apikey}}" />
+  <br /> 
+  USERNAME :<input type="text" name="username" / ><br/> <br />   
+            
+      <input type="submit" value="Create room!" />
+  
+  
+  </form>
 
 <h2>Join a room</h2>
 <p>If you know the room id enter below:</p>
@@ -17,6 +23,7 @@
 	<input type="hidden" name="apikey" value="{{apikey}}" />
 	<input type="text" name="roomid" />
 	<input type="submit" name="submit" value="Join room!" />
-</form>
+    </form>
+</center>
 </body>
 </html>
