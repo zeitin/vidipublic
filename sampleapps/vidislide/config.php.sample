@@ -1,0 +1,11 @@
+<?php 
+    $apikey = "ba91e8b3d839632d69edcf2f6130f6cdec7c1d59";
+    $wsdl_url = "http://192.168.199.61:5080/vidi/services/vidiservice";
+    $vidi_js_path = "http://192.168.199.61:5080/vidi/static/vidi.js";
+
+    $debug = 1;
+    $debug_log_file = "debug.log";
+    $postback_log_file = "postback.log";
+
+    $slide_path = "slides";
+?>

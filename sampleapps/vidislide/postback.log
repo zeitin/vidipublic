@@ -1,0 +1,451 @@
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c15087134' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c5415651' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c5415651' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c15087134' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'client_says' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c15087134' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'client_says' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c15014874' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c15087134' i-'none' o-'none' b-'none' ic-'none' oc-'none'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'client_says' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c15087134' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c22176987' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c22176987' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|13::c15014874'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'client_says' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c22176987' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c4861396' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c4861396' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c20794441' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:83] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c20794441' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|1::c15014874'
+[postback.php:74] postback received: unknown
+[postback.php:75] event: 'client_says' could not handled
+[postback.php:76] end
+[postback.php:79] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c20794441' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|11::c15014874'
+[postback.php:48] postback_received: client_says
+[postback.php:60] tell client , publish page  from slide math
+[postback.php:99] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c20794441' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:99] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c29921067' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:99] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c29921067' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|2;;c15014874'
+[postback.php:48] postback_received: client_says
+[postback.php:60] tell client c15014874, publish page  from slide math
+[postback.php:99] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c29921067' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:99] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c1619090' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:99] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c1619090' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|15;;c15014874'
+[postback.php:48] postback_received: client_says
+[postback.php:60] tell client c15014874, publish page 15 from slide math
+[postback.php:99] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c1619090' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|2;;c15014874'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '2' from slide 'math'
+[postback.php:101] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c1619090' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|18;;c15014874'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '18' from slide 'math'
+[postback.php:101] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c1619090' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|2;;c15014874'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '2' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c1619090' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|13;;c15014874'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '13' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c1619090' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|11;;c15014874'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '11' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c1619090' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c26768024' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c26768024' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c3764174' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'session_expired' r-'none' c-'none' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:90] postback received: session_expired
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c86176' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c86176' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c26707741' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c26707741' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c712593' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c3764174' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|1;;c15014874'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '1' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c712593' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c23370522' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c3764174' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|1;;c15014874'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '1' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c23370522' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c11801206' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c3764174' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|12;;c15014874'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '12' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c3764174' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c15473741' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c15473741' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|1;;c15014874|c11801206'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '1' from slide 'math'
+[postback.php:61] tell client 'c11801206', publish page '1' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c11801206' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c17286677' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c15473741' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c13826919' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c13826919' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|11;;c15014874|c17286677'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '11' from slide 'math'
+[postback.php:61] tell client 'c17286677', publish page '11' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c17286677' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c80602' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c13826919' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|15;;c15014874|c80602'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '15' from slide 'math'
+[postback.php:61] tell client 'c80602', publish page '15' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c13826919' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|16;;c15014874|c80602'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '16' from slide 'math'
+[postback.php:61] tell client 'c80602', publish page '16' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c13826919' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|17;;c15014874|c80602'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '17' from slide 'math'
+[postback.php:61] tell client 'c80602', publish page '17' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c80602' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c23747954' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c13826919' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|1;;c15014874|c23747954'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c15014874', publish page '1' from slide 'math'
+[postback.php:61] tell client 'c23747954', publish page '1' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c23747954' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c12817424' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c12817424' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c6971605' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c13826919' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c12141980' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c15014874' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c6190691' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c6190691' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c4256705' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c4256705' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c15548003' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c12141980' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c2573832' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c2573832' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c8119943' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c8119943' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c10688173' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c10688173' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c17287019' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c17287019' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c7198961' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c7198961' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c30551515' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c30551515' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c32841820' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r11595238' c-'c32841820' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r11595238' c-'c10223330' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_expired' r-'r11595238' c-'c6971605' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:82] postback received: client_expired
+[postback.php:102] end.
+[postback.php:17] start. e-'client_expired' r-'r11595238' c-'c15548003' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:82] postback received: client_expired
+[postback.php:102] end.
+[postback.php:17] start. e-'client_expired' r-'r11595238' c-'c10223330' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:82] postback received: client_expired
+[postback.php:102] end.
+[postback.php:17] start. e-'session_expired' r-'none' c-'none' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:90] postback received: session_expired
+[postback.php:102] end.
+[postback.php:17] start. e-'room_expired' r-'r11595238' c-'none' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:87] postback received: room_expired
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r29215666' c-'c7676228' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r29215666' c-'c7676228' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r29215666' c-'c27859243' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r29215666' c-'c9869406' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r29215666' c-'c18277846' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c27859243' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|21;;c9869406|c18277846'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c9869406', publish page '21' from slide 'math'
+[postback.php:61] tell client 'c18277846', publish page '21' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r29215666' c-'c27859243' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r29215666' c-'c28473474' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r29215666' c-'c28473474' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r29215666' c-'c9869406' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r29215666' c-'c15265612' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r20373774' c-'c24416429' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r20373774' c-'c24416429' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r29215666' c-'c4145085' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r29215666' c-'c4145085' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r29215666' c-'c28372402' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c28372402' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|17;;c18277846|c15265612'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c18277846', publish page '17' from slide 'math'
+[postback.php:61] tell client 'c15265612', publish page '17' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c28372402' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::math|22;;c18277846|c15265612'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c18277846', publish page '22' from slide 'math'
+[postback.php:61] tell client 'c15265612', publish page '22' from slide 'math'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r29215666' c-'c28372402' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r29215666' c-'c28973204' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r29215666' c-'c28973204' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r30181678' c-'c22588100' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r30181678' c-'c22588100' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r30181678' c-'c6648397' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r30181678' c-'c6648397' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r30181678' c-'c3198717' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r30181678' c-'c3198717' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r30181678' c-'c23694526' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r29215666' c-'c15265612' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r30181678' c-'c23694526' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r30181678' c-'c184163' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r30181678' c-'c184163' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r30181678' c-'c9318325' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r30181678' c-'c9318325' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r30181678' c-'c10628620' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r30181678' c-'c10628620' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r29215666' c-'c18277846' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r30181678' c-'c23214112' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r30181678' c-'c23936337' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r30181678' c-'c23936337' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_joined_room' r-'r30181678' c-'c18004051' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:24] postback received: client_joined_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_says' r-'none' c-'c18004051' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'publish_page::hede|4;;c23214112'
+[postback.php:48] postback_received: client_says
+[postback.php:61] tell client 'c23214112', publish page '4' from slide 'hede'
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r30181678' c-'c23214112' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
+[postback.php:17] start. e-'client_left_room' r-'r30181678' c-'c18004051' i-'none' o-'none' b-'none' ic-'none' oc-'none' m-'none'
+[postback.php:33] postback received: client_left_room
+[postback.php:102] end.
