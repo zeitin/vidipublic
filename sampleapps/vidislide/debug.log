@@ -3199,3 +3199,93 @@ debug_log :: hede
 [slide_list.php:32] using 'r30181678' for room 'hede'
 [slide_list.php:42] getClient called
 [slide_list.php:60] using 'c18004051' for client 'remzi'
+[slide_list.php:13] getRoom called
+[slide_list.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hede'
+[slide_list.php:29] created room-'hede' roomid-'r21589591'
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'remzi'
+[slide_list.php:60] using 'c11947822' for client 'remzi'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:60] using 'c11947822' for client 'remzi'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:60] using 'c11947822' for client 'remzi'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:50] clientid 'c11947822' exists in room propertires but it possibly expired, i'll get a new roomid for client 'remzi'
+[slide_list.php:60] using 'c27521400' for client 'remzi'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:60] using 'c27521400' for client 'remzi'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:51] using 'c14133705' for client 'remzi'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:51] using 'c13924480' for client 'remzi'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:51] using 'c23758883' for client 'remzi'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:51] using 'c3747816' for client 'remzi'
+[show_slide.php:12] getRoom called
+[show_slide.php:20] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'math'
+[show_slide.php:28] created room-'math' roomid-'r17087715'
+[show_slide.php:31] using 'r17087715' for room 'math'
+[show_slide.php:41] getClient called
+[show_slide.php:49] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'adaada'
+[show_slide.php:59] using 'c12581946' for client 'adaada'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:51] using 'c3819554' for client 'remzi'
+[show_slide.php:12] getRoom called
+[show_slide.php:31] using 'r21589591' for room 'hede'
+[show_slide.php:41] getClient called
+[show_slide.php:49] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'giray'
+[show_slide.php:59] using 'c12400378' for client 'giray'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:51] using 'c5267983' for client 'remzi'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:51] using 'c31691786' for client 'remzi'
+[show_slide.php:12] getRoom called
+[show_slide.php:31] using 'r21589591' for room 'hede'
+[show_slide.php:41] getClient called
+[show_slide.php:59] using 'c12400378' for client 'giray'
+[show_slide.php:12] getRoom called
+[show_slide.php:31] using 'r21589591' for room 'hede'
+[show_slide.php:41] getClient called
+[show_slide.php:49] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'gira2y'
+[show_slide.php:59] using 'c25003881' for client 'gira2y'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:51] using 'c24395764' for client 'remzi'
+[show_slide.php:12] getRoom called
+[show_slide.php:31] using 'r17087715' for room 'math'
+[show_slide.php:41] getClient called
+[show_slide.php:59] using 'c12581946' for client 'adaada'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r21589591' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:51] using 'c9568605' for client 'remzi'
+[show_slide.php:12] getRoom called
+[show_slide.php:31] using 'r21589591' for room 'hede'
+[show_slide.php:41] getClient called
+[show_slide.php:49] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'adaada'
+[show_slide.php:59] using 'c17923264' for client 'adaada'
