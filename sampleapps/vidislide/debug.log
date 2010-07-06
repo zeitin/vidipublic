@@ -3289,3 +3289,13 @@ debug_log :: hede
 [show_slide.php:41] getClient called
 [show_slide.php:49] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'adaada'
 [show_slide.php:59] using 'c17923264' for client 'adaada'
+[slide_list.php:13] getRoom called
+[slide_list.php:21] roomid 'r21589591' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hede'
+[slide_list.php:29] created room-'hede' roomid-'r22855989'
+[slide_list.php:32] using 'r22855989' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:51] using 'c2243556' for client 'remzi'
+[slide_list.php:13] getRoom called
+[slide_list.php:32] using 'r22855989' for room 'hede'
+[slide_list.php:42] getClient called
+[slide_list.php:51] using 'c21445166' for client 'remzi'

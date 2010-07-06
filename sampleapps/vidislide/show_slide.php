@@ -39,16 +39,7 @@ function getRoom($room_name) {
 function getClient($client_name, $roomid) {
     global $vidi, $apikey;
     debug_log("getClient called");
-    try {
-        $clientid = $vidi->getProperty($apikey, 'roomid', $roomid, $client_name);
-    } catch (Exception $e) {
-        debug_log("clientid for client '$client_name' cannot be retrieved from room '$roomid'");
-    }
-
-    if (!in_array($clientid,$vidi->listClientsInRoom($apikey, $roomid))) {
-        debug_log("clientid '$clientid' exists in room propertires but it possibly expired, i'll get a new roomid for client '$client_name'");
-        $clientid = "";
-    }
+    $clientid = "";
 
     if (!$clientid) {
         $clientid = $vidi->createClientInRoom($apikey, $roomid);
