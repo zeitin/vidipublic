@@ -45,29 +45,32 @@ class Vidi(object):
     def close(self):
         self.request('session/destroy', 'DELETE')
 
-    def get_init_js(self, room, client, callback=False, debug=False):
+    def get_init_js(self, room, client, callback=False, debug="false"):
+        return get_vidi_js()+"<script>" + self.get_init_line(room,client,callback,debug) + "</script>"
+
+    def get_vidi_js(self):
+        return """
+<script type="text/javascript" src="%s"></script>
+""" % ( 'http://' + self.rest_host + '/vidi/static/vidi.js')
+
+    def get_init_line(self, room, client, callback=False, debug="false"):
         if isinstance(client, Client) == False:
             raise VidiError('Wrong Client object')
         if isinstance(room, Room) == False:
             raise VidiError('Wrong Room object')
 
-        params = {
-            'clientid': client.id,
-            'roomid': room.id,
-            'debug': debug,
-        }
+        params = """{
+            'clientid': "%s",
+            'roomid':  "%s",
+            'debug': %s """ % (client.id, room.id, debug)
 
         if callback:
-            params.update({'callback': callback})
+            params += ", callback: %s" % callback
 
-        return """
-<script type="text/javascript" src="%(vidi_js)s"></script>
-<script type="text/javascript">
-vidi.initialize(%(params)s);
-</script>
-        """ % {
+        params += " }"
+        return " vidi.initialize(%(params)s); " % {
             'vidi_js': 'http://' + self.rest_host + '/vidi/static/vidi.js',
-            'params': json.dumps(params),
+            'params': params,
         }
 
     def create_screen(self, **kwargs):
