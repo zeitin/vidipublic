@@ -20,6 +20,8 @@
 <body>
 <h1>Friendmeet</h1>
 <h2>Room id: {{roomid}}</h2>
+<h3>Creator: {{username}}</h3>
+
 <p>
     Send this link to a friend to meet:
     {% if apikey %}
@@ -30,6 +32,7 @@
 </p>
 
 <div id="vidi_screen_localecho">{{ vidi_screen_localecho }}</div>
+
 <div id="vidi_screen_remote">{{ vidi_screen_remote }}</div>
 
 </body>

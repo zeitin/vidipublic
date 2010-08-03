@@ -1,0 +1,2501 @@
+debug_log :: hede
+debug_log :: hede
+debug_log :: hede
+debug_log :: hede
+debug_log :: hede
+debug_log :: hede
+debug_log :: hede
+debug_log :: hede
+debug_log :: hede
+[index.php] [6] [hede][index.php] [6] [hede][index.php] [6] [hede][index.php] [6] [hede][index.php] [6] [hede][index.php] [6] [hede]
+[index.php] [6] [hede]
+[index.php:6] [hede]
+[index.php:6] [hede]
+[index.php:7] getRoom called
+[index.php:8] getRoom called
+[index.php:12] roomid for room-'hede' cannot be retrieved from apikey
+[index.php:8] getRoom called
+[index.php:16] roomid-'' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hede'
+[index.php:24] created room-'hede' roomid-'r23675893'
+[index.php:8] getRoom called
+[index.php:27] using room-'hede' roomid-'r23675893'
+[index.php:8] getRoom called
+[index.php:27] using room-'hede' roomid-'r23675893'
+[index.php:8] getRoom called
+[index.php:29] using 'r23675893' for room 'hede'
+[index.php:34] getClient called
+[index.php:8] getRoom called
+[index.php:29] using 'r23675893' for room 'hede'
+[index.php:35] getClient called
+[index.php:8] getRoom called
+[index.php:18] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[index.php:26] created room-'hebele' roomid-'r18632632'
+[index.php:29] using 'r18632632' for room 'hebele'
+[index.php:35] getClient called
+[index.php:8] getRoom called
+[index.php:29] using 'r18632632' for room 'hebele'
+[index.php:35] getClient called
+[index.php:8] getRoom called
+[index.php:29] using 'r18632632' for room 'hebele'
+[index.php:35] getClient called
+[index.php:8] getRoom called
+[index.php:29] using 'r18632632' for room 'hebele'
+[index.php:35] getClient called
+[index.php:43] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'hede'
+[index.php:8] getRoom called
+[index.php:29] using 'r18632632' for room 'hebele'
+[index.php:35] getClient called
+[index.php:43] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'hede'
+[index.php:53] using 'c7892719' for client 'hede'
+[index.php:8] getRoom called
+[index.php:29] using 'r18632632' for room 'hebele'
+[index.php:35] getClient called
+[index.php:53] using 'c7892719' for client 'hede'
+[index.php:8] getRoom called
+[index.php:29] using 'r18632632' for room 'hebele'
+[index.php:35] getClient called
+[index.php:43] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'hede2'
+[index.php:53] using 'c15703894' for client 'hede2'
+[index.php:8] getRoom called
+[index.php:29] using 'r18632632' for room 'hebele'
+[index.php:35] getClient called
+[index.php:53] using 'c7892719' for client 'hede'
+[index.php:8] getRoom called
+[index.php:16] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[index.php:24] created room-'hebele' roomid-'r31134291'
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:41] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'hede'
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:41] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'hede2'
+[index.php:51] using 'c24624187' for client 'hede2'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:8] getRoom called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r31134291' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c13197397' for client 'hede'
+[index.php:8] getRoom called
+[index.php:16] roomid 'r31134291' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[index.php:24] created room-'hebele' roomid-'r18617476'
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:41] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'hede'
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r18617476' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c23311555' for client 'hede'
+[index.php:8] getRoom called
+[index.php:16] roomid 'r18617476' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[index.php:24] created room-'hebele' roomid-'r22087158'
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:41] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'hede'
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:41] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'hede2'
+[index.php:51] using 'c12430214' for client 'hede2'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c12430214' for client 'hede2'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c12430214' for client 'hede2'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c12430214' for client 'hede2'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c12430214' for client 'hede2'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c12430214' for client 'hede2'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c11545451' for client 'hede'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:51] using 'c12430214' for client 'hede2'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:41] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[index.php:51] using 'c26341483' for client 'veli'
+[index.php:8] getRoom called
+[index.php:27] using 'r22087158' for room 'hebele'
+[index.php:33] getClient called
+[index.php:41] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[index.php:51] using 'c693490' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c693490' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c26341483' for client 'veli'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c693490' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c693490' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c26341483' for client 'veli'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c693490' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c26341483' for client 'veli'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c693490' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c26341483' for client 'veli'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c693490' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c26341483' for client 'veli'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c26341483' for client 'veli'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c693490' for client 'ali'
+[index.php:13] getRoom called
+[index.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hede'
+[index.php:29] created room-'hede' roomid-'r12492026'
+[index.php:32] using 'r12492026' for room 'hede'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'dogan'
+[index.php:60] using 'c1276302' for client 'dogan'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c26341483' for client 'veli'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c26341483' for client 'veli'
+[index.php:13] getRoom called
+[index.php:32] using 'r22087158' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c693490' for client 'ali'
+[index.php:13] getRoom called
+[index.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[index.php:29] created room-'hebele' roomid-'r12535875'
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c25013394' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r12535875' for room 'hebele'
+[index.php:42] getClient called
+[index.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[index.php:60] using 'c3739924' for client 'veli'
+[index.php:13] getRoom called
+[index.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[index.php:29] created room-'hebele' roomid-'r29326263'
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:59] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:59] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:59] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:59] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:59] using 'c10768068' for client 'ali'
+[index.php:13] getRoom called
+[index.php:32] using 'r29326263' for room 'hebele'
+[index.php:42] getClient called
+[index.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[index.php:60] using 'c7133084' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:59] using 'c7133084' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:59] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:59] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:59] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:59] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29326263' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:59] using 'c10768068' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'ali-ali'
+[chat.php:29] created room-'ali-ali' roomid-'r15508600'
+[chat.php:32] using 'r15508600' for room 'ali-ali'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:59] using 'c29485412' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'ali-veli'
+[chat.php:29] created room-'ali-veli' roomid-'r13728140'
+[chat.php:32] using 'r13728140' for room 'ali-veli'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:59] using 'c25948449' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r924646'
+[chat.php:32] using 'r924646' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:59] using 'c13961517' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r924646' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:59] using 'c16581793' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r924646' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:59] using 'c22190052' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r924646' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:59] using 'c4634063' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r924646' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:59] using 'c798553' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r924646' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r16162289'
+[chat.php:32] using 'r16162289' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c26375899' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r16162289' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:60] using 'c32462229' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r16162289' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c26375899' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r16162289' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c26375899' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r16162289' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ayse'
+[chat.php:60] using 'c29017669' for client 'ayse'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r16162289' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c32462229' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:21] roomid 'r16162289' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r3943410'
+[chat.php:32] using 'r3943410' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ayse'
+[chat.php:60] using 'c17769948' for client 'ayse'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r3943410' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c17769948' for client 'ayse'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r14292245'
+[chat.php:32] using 'r14292245' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ayse'
+[chat.php:60] using 'c3485063' for client 'ayse'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r14292245' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:60] using 'c11600335' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r14292245' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c3485063' for client 'ayse'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r14292245' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c3485063' for client 'ayse'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r14292245' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c73109' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:17] roomid for room 'hebele' cannot be retrieved from apikey
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r10334434'
+[chat.php:32] using 'r10334434' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c20980795' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r10334434' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20980795' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r10334434' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20980795' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r10334434' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20980795' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r10334434' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:60] using 'c19878555' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'c19878555-c20980795'
+[chat.php:29] created room-'c19878555-c20980795' roomid-'r13124449'
+[chat.php:32] using 'r13124449' for room 'c19878555-c20980795'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:60] using 'c26864188' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r10334434' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c19878555' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r27816859'
+[chat.php:32] using 'r27816859' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c10898066' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r30076848'
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7248746' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'deli'
+[chat.php:60] using 'c21848085' for client 'deli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'dogan'
+[chat.php:60] using 'c7761603' for client 'dogan'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'gelberi'
+[chat.php:60] using 'c21985926' for client 'gelberi'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'c21985926-c21848085'
+[chat.php:29] created room-'c21985926-c21848085' roomid-'r25760114'
+[chat.php:32] using 'r25760114' for room 'c21985926-c21848085'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'gelberi'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'c21848085-c7761603'
+[chat.php:29] created room-'c21848085-c7761603' roomid-'r31214809'
+[chat.php:32] using 'r31214809' for room 'c21848085-c7761603'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'deli'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'c21848085-c7248746'
+[chat.php:29] created room-'c21848085-c7248746' roomid-'r28212101'
+[chat.php:32] using 'r28212101' for room 'c21848085-c7248746'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'deli'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'c21848085-c14168933'
+[chat.php:29] created room-'c21848085-c14168933' roomid-'r4557291'
+[chat.php:32] using 'r4557291' for room 'c21848085-c14168933'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'deli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c21848085' for client 'deli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r30076848' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14168933' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r12280405'
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:60] using 'c9826071' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'deli'
+[chat.php:60] using 'c24258831' for client 'deli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'gelberi'
+[chat.php:60] using 'c12563781' for client 'gelberi'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c12563781' for client 'gelberi'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r12280405' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20285311' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r10386758'
+[chat.php:32] using 'r10386758' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c9354074' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r10386758' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c9354074' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r10386758' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c9354074' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r10386758' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:60] using 'c20704708' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r10386758' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'deli'
+[chat.php:60] using 'c14669379' for client 'deli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r10386758' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14669379' for client 'deli'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'c9354074-c20704708'
+[chat.php:29] created room-'c9354074-c20704708' roomid-'r4537415'
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r10386758' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20704708' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r10386758' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20704708' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r10386758' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c20704708' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r4537415' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c23347240' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'c9354074-c20704708'
+[chat.php:29] created room-'c9354074-c20704708' roomid-'r5060581'
+[chat.php:32] using 'r5060581' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c504059' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r5060581' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c504059' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r5060581' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:60] using 'c504059' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'c9354074-c20704708'
+[chat.php:29] created room-'c9354074-c20704708' roomid-'r3470405'
+[chat.php:32] using 'r3470405' for room 'c9354074-c20704708'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c28394800' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r29120938'
+[chat.php:32] using 'r29120938' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:60] using 'c21347229' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29120938' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c21347229' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29120938' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c14274282' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29120938' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c21347229' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29120938' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'deli'
+[chat.php:60] using 'c11101702' for client 'deli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29120938' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c21347229' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'c21347229-c11101702'
+[chat.php:29] created room-'c21347229-c11101702' roomid-'r27227813'
+[chat.php:32] using 'r27227813' for room 'c21347229-c11101702'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:60] using 'c32002750' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29120938' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c14274282' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29120938' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c14274282' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c1090841' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29120938' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c1090841' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29120938' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c1090841' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c3449288' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29120938' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c3449288' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r29120938' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c3449288' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c14321474' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r24390742'
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c2551763' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c2551763' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c2551763' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c31295076' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c31295076' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c31295076' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c19821108' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c19821108' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c19821108' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c31560690' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c31560690' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c31560690' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c11759753' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c11759753' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c11759753' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c17313093' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c17313093' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c17313093' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c25065105' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c25065105' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c25065105' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c5962929' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c5962929' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c5962929' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c16055108' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c16055108' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c16055108' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c16055108' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c25089808' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:60] using 'c6300663' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24390742' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c6300663' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:60] using 'c28121199' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r24475641'
+[chat.php:32] using 'r24475641' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c26708884' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24475641' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'remzi'
+[chat.php:60] using 'c7008653' for client 'remzi'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24475641' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c7008653' for client 'remzi'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24475641' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c7008653' exists in room propertires but it possibly expired, i'll get a new roomid for client 'remzi'
+[chat.php:60] using 'c8972349' for client 'remzi'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24475641' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c8972349' for client 'remzi'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24475641' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c8972349' exists in room propertires but it possibly expired, i'll get a new roomid for client 'remzi'
+[chat.php:60] using 'c22081762' for client 'remzi'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24475641' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c22081762' exists in room propertires but it possibly expired, i'll get a new roomid for client 'remzi'
+[chat.php:60] using 'c31539877' for client 'remzi'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24475641' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c31539877' for client 'remzi'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r24475641' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c31539877' exists in room propertires but it possibly expired, i'll get a new roomid for client 'remzi'
+[chat.php:60] using 'c31531613' for client 'remzi'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r1671238'
+[chat.php:32] using 'r1671238' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'veli'
+[chat.php:60] using 'c26998677' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1671238' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c26998677' for client 'veli'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1671238' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c28252437' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1671238' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c28252437' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1671238' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c28252437' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c27534041' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1671238' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c27534041' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1671238' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c27534041' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c258935' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1671238' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:60] using 'c258935' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1671238' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c258935' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c29184573' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hede'
+[chat.php:29] created room-'hede' roomid-'r19263089'
+[chat.php:32] using 'r19263089' for room 'hede'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ali'
+[chat.php:60] using 'c21300023' for client 'ali'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hebele'
+[chat.php:29] created room-'hebele' roomid-'r2728006'
+[chat.php:32] using 'r2728006' for room 'hebele'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'remzi'
+[chat.php:60] using 'c3388675' for client 'remzi'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'ada'
+[chat.php:29] created room-'ada' roomid-'r622702'
+[chat.php:32] using 'r622702' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ada'
+[chat.php:60] using 'c11648284' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r622702' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c11648284' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r622702' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c11648284' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r622702' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c11648284' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r622702' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c11648284' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:17] roomid for room 'ada' cannot be retrieved from apikey
+[chat.php:13] getRoom called
+[chat.php:17] roomid for room 'ada' cannot be retrieved from apikey
+[chat.php:13] getRoom called
+[chat.php:17] roomid for room 'ada' cannot be retrieved from apikey
+[chat.php:13] getRoom called
+[chat.php:17] roomid for room 'ada' cannot be retrieved from apikey
+[chat.php:13] getRoom called
+[chat.php:17] roomid for room 'ada' cannot be retrieved from apikey
+[chat.php:13] getRoom called
+[chat.php:17] roomid for room 'ada' cannot be retrieved from apikey
+[chat.php:13] getRoom called
+[chat.php:17] roomid for room 'ada' cannot be retrieved from apikey
+[chat.php:13] getRoom called
+[chat.php:17] roomid for room 'ada' cannot be retrieved from apikey
+[chat.php:13] getRoom called
+[chat.php:17] roomid for room 'ada' cannot be retrieved from apikey
+[chat.php:13] getRoom called
+[chat.php:17] roomid for room 'ada' cannot be retrieved from apikey
+[chat.php:13] getRoom called
+[chat.php:17] roomid for room 'ada' cannot be retrieved from apikey
+[chat.php:13] getRoom called
+[chat.php:17] roomid for room 'adad' cannot be retrieved from apikey
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'ada'
+[chat.php:29] created room-'ada' roomid-'r612687420'
+[chat.php:32] using 'r612687420' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'eda'
+[chat.php:60] using 'c1213059092' for client 'eda'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'ada'
+[chat.php:29] created room-'ada' roomid-'r1779274245'
+[chat.php:32] using 'r1779274245' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'eda'
+[chat.php:60] using 'c1366337104' for client 'eda'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1779274245' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c1366337104' for client 'eda'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1779274245' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ada'
+[chat.php:60] using 'c1957451631' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'ada'
+[chat.php:29] created room-'ada' roomid-'r1253374699'
+[chat.php:32] using 'r1253374699' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ada'
+[chat.php:60] using 'c540841494' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'ada'
+[chat.php:29] created room-'ada' roomid-'r1398556044'
+[chat.php:32] using 'r1398556044' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c1723539117' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'ada'
+[chat.php:29] created room-'ada' roomid-'r903179198'
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ada'
+[chat.php:60] using 'c443667098' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c443667098' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c443667098' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ada'
+[chat.php:60] using 'c762843784' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c762843784' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c762843784' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ada'
+[chat.php:60] using 'c992502906' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c992502906' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c992502906' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c992502906' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c992502906' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c992502906' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c992502906' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c992502906' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ada'
+[chat.php:60] using 'c490902680' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c490902680' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c490902680' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c490902680' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c490902680' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c490902680' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c490902680' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c490902680' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c490902680' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c490902680' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c490902680' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c490902680' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ada'
+[chat.php:60] using 'c393689620' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c393689620' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c393689620' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c393689620' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c393689620' exists in room propertires but it possibly expired, i'll get a new roomid for client 'ada'
+[chat.php:60] using 'c256866950' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c256866950' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c256866950' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c256866950' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c256866950' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c256866950' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c256866950' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c256866950' for client 'ada'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c606146812' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c606146812' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c606146812' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c606146812' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c606146812' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c1832413009' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c1832413009' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c1832413009' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r903179198' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c521679231' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hede'
+[chat.php:29] created room-'hede' roomid-'r1633780158'
+[chat.php:32] using 'r1633780158' for room 'hede'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c679629913' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:21] roomid 'r903179198' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'ada'
+[chat.php:29] created room-'ada' roomid-'r582216281'
+[chat.php:32] using 'r582216281' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'hede'
+[chat.php:60] using 'c1271737673' for client 'hede'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'ada'
+[chat.php:29] created room-'ada' roomid-'r1391206302'
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c367043203' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'hede'
+[chat.php:60] using 'c410596662' for client 'hede'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'remzi'
+[chat.php:60] using 'c1675994588' for client 'remzi'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'c1675994588-c410596662'
+[chat.php:29] created room-'c1675994588-c410596662' roomid-'r1802245312'
+[chat.php:32] using 'r1802245312' for room 'c1675994588-c410596662'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'remzi'
+[chat.php:60] using 'c1392102373' for client 'remzi'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'abc'
+[chat.php:60] using 'c1958739002' for client 'abc'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'hede'
+[chat.php:29] created room-'hede' roomid-'r1986875184'
+[chat.php:32] using 'r1986875184' for room 'hede'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c1852151826' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c367043203' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c410596662' exists in room propertires but it possibly expired, i'll get a new roomid for client 'hede'
+[chat.php:60] using 'c1181487996' for client 'hede'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c1181487996' for client 'hede'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c1958739002' for client 'abc'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c1958739002' exists in room propertires but it possibly expired, i'll get a new roomid for client 'abc'
+[chat.php:60] using 'c316217735' for client 'abc'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c316217735' for client 'abc'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c367043203' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c45203154' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c45203154' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c583745848' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c583745848' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c583745848' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c1711323429' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c316217735' exists in room propertires but it possibly expired, i'll get a new roomid for client 'abc'
+[chat.php:60] using 'c1828826140' for client 'abc'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c1711323429' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c1711323429' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c539439084' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c539439084' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c539439084' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c1672359023' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'abd'
+[chat.php:60] using 'c150326234' for client 'abd'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1391206302' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c150326234' for client 'abd'
+[chat.php:13] getRoom called
+[chat.php:21] roomid '' exists in apikey propertires but it possibly expired, i'll get a new roomid for room-'ada'
+[chat.php:29] created room-'ada' roomid-'r1722329116'
+[chat.php:32] using 'r1722329116' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid '' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c819697057' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1722329116' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:60] using 'c819697057' for client 'apurva'
+[chat.php:13] getRoom called
+[chat.php:32] using 'r1722329116' for room 'ada'
+[chat.php:42] getClient called
+[chat.php:50] clientid 'c819697057' exists in room propertires but it possibly expired, i'll get a new roomid for client 'apurva'
+[chat.php:60] using 'c431432310' for client 'apurva'

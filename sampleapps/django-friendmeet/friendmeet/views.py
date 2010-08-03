@@ -11,10 +11,11 @@ def index(request):
         demo_apikey = apikey
     else:
         apikey = settings.VIDI_APIKEY
-        demo_apikey = False
-
+        demo_apikey = apikey
+        
+         
     return render_to_response('index.html', {
-        'apikey': demo_apikey,
+        'apikey':demo_apikey,
         'BASE_URL': settings.BASE_URL,
     })
 
@@ -23,20 +24,26 @@ def create_room(request):
         apikey = request.GET['apikey']
         demo_apikey = apikey
     else:
+        
         apikey = settings.VIDI_APIKEY
-        demo_apikey = False
-
+        demo_apikey = apikey
+        
+    username =request.GET['username']
+#request.GET['username']
+        #roomid=request.REQUEST['roomid']
+        
     # create a vidi session
     vidi = Vidi(apikey)
 
     # create the room
     room = vidi.create_room()
-
+    
+    room.set_property("username",username,"private")
     # create a client and io
     client = room.create_client()
     input = client.create_input()
     output = client.create_output()
-
+    
     # get vidi initialize javascript code
     vidi_init_js = vidi.get_init_js(room, client)
 
@@ -45,6 +52,7 @@ def create_room(request):
         input=input,
         localecho=True,
     )
+    
 
     # get remote screen html/javascript code
     vidi_screen_remote = vidi.create_screen(
@@ -58,9 +66,10 @@ def create_room(request):
         'vidi_init_js': mark_safe(vidi_init_js),
         'vidi_screen_localecho': mark_safe(vidi_screen_localecho),
         'vidi_screen_remote': mark_safe(vidi_screen_remote),
-        'apikey': demo_apikey,
+        'apikey':demo_apikey,
         'BASE_URL': settings.BASE_URL,
-    })
+        'username': username, 
+        })
 
 def join_room(request):
     if request.GET.has_key('apikey'):
@@ -68,7 +77,7 @@ def join_room(request):
         demo_apikey = apikey
     else:
         apikey = settings.VIDI_APIKEY
-        demo_apikey = False
+        demo_apikey = apikey
 
     # create a vidi session
     vidi = Vidi(apikey)
@@ -113,7 +122,7 @@ def join_room(request):
         'vidi_init_js': mark_safe(vidi_init_js),
         'vidi_screen_localecho': mark_safe(vidi_screen_localecho),
         'vidi_screen_remote': mark_safe(vidi_screen_remote),
-        'apikey': demo_apikey,
+        'apikey':demo_apikey, 
         'BASE_URL': settings.BASE_URL,
     })
 

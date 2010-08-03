@@ -1,0 +1,9 @@
+<?php 
+    $apikey = ""; // your apikey
+    $wsdl_url = "http://api.vidi.zeitin.com/vidi/services/vidiservice"; // wsdl url
+    $vidi_js_path = "http://api.vidi.zeitin.com/vidi/static/vidi.js"; // vidi js path
+
+    $debug = 1; // debug should be 0 or 1
+    $debug_log_file = "debug.log"; // debug log file
+    $postback_log_file = "postback.log"; // postback log file
+?>

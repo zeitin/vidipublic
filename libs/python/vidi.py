@@ -8,7 +8,7 @@ class Vidi(object):
         self.apikey = apikey
         self.id = apikey
         self.rest_host = server
-
+        #self.username = username
     def get_rooms(self):
         roomids = self.request('rooms', 'GET')
         return [Room(self, roomid) for roomid in roomids]
@@ -220,6 +220,7 @@ class Client(object):
         self.room = room
         self.clientid = clientid
         self.id = clientid
+        #self.username=''
 
     def get_inputs(self):
         inputids = self.vidi.request('inputs', 'GET', {
